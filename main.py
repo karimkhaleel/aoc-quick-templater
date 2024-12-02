@@ -10,13 +10,19 @@ templates = {
     "sol": """from typing import Any
 
 
-def solution(data: str) -> Any:
+def solution_one(data: str) -> Any:
+    pass
+
+
+def solution_two(data: str) -> Any:
     pass
 
 
 def main():
     with open("input.txt", "r") as f:
-        print(solution(f.read()))
+        data = f.read()
+        print(f"one -> {solution_one(data)}")
+        print(f"two -> {solution_two(data)}")
 
 
 if __name__ == "__main__":
