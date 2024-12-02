@@ -23,7 +23,7 @@ if __name__ == "__main__":
     main()
 
 
-def test_solution(problem_input: str) -> None:
+def test_solution() -> None:
     pass
     """
 }
