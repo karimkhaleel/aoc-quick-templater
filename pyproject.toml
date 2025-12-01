@@ -1,6 +1,6 @@
 [project]
 name = "aoc-quick-templater"
-version = "0.1.5"
+version = "0.1.6"
 description = "Templates AoC problem in python"
 readme = "README.md"
 license = { text = """MIT License

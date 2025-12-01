@@ -42,7 +42,7 @@ class State:
     api_key: str
     day: int
     problem_path: Path
-    year: int = 2024
+    year: int = 2025
     overwrite: bool = False
 
     @property
